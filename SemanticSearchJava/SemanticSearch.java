@@ -928,10 +928,10 @@ public class SemanticSearch
 		
 		commands[0] = command;
 		
-		int numThreads = Integer.parseInt(numThreads);
+		int numThreadsInt = Integer.parseInt(numThreads);
 
 		SemanticSearch search = new SemanticSearch();
-		search.DoSearch(matrix, categories, commands, numThreads);
+		search.DoSearch(matrix, categories, commands, numThreadsInt);
 	}
 	
 
