@@ -21,10 +21,9 @@ https://www.dropbox.com/s/dkye70q96uze400/NodeCategories.txt
 ####MatrixFilePath 
 https://www.dropbox.com/s/clvbv27g0a09o3l/0.7-0.0.txt
 #### PathsToAnalyze
-TRAF2,IRF4,ISG15 <br>
-TRAF2,TNFRSF1A,STAT1,ISG15 <br>
-TRAF2,HSP90AA1,STAT1,ISG15 <br>
-etc..<br>
+
+Sample file: https://www.dropbox.com/s/3262bkn398d90yu/BHLHE40-Protein-ABL1-Gene.txt
+
 
 #### Number of workers
 The number of parallel threads to use during the computation. 
