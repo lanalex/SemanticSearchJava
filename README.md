@@ -22,7 +22,8 @@ https://www.dropbox.com/s/dkye70q96uze400/NodeCategories.txt
 https://www.dropbox.com/s/clvbv27g0a09o3l/0.7-0.0.txt
 #### PathsToAnalyze
 
-Sample file: https://www.dropbox.com/s/3262bkn398d90yu/BHLHE40-Protein-ABL1-Gene.txt
+Sample file: 
+https://www.dropbox.com/s/3262bkn398d90yu/BHLHE40-Protein-ABL1-Gene.txt
 
 
 #### Number of workers
