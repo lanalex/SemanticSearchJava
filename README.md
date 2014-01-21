@@ -6,7 +6,7 @@ You can compile the code into a jar called SemanticSearch.jar.
 All the prerequisite java libraries are bundled along with this code.
 
 # Quick start
-java -jar SemanticSearch.jar <OutputDir> <MatrixFilePath> <FileMappingNodeToCategories> <PathsToAnalyze>
+java -jar SemanticSearch.jar [OutputDir] [MatrixFilePath] [FileMappingNodeToCategories] [PathsToAnalyze]
 
 ## The locations where each file can be found
 ####FileMappingNodeToCategories 
