@@ -19,9 +19,9 @@ TRAF2,TNFRSF1A,STAT1,ISG15 <br>
 TRAF2,HSP90AA1,STAT1,ISG15 <br>
 etc..<br>
 
+#### Extra notes
+Provide a full path for each parameter, not relative locations.
 
-# Special notes
-Provide full for each parameter, not relative locations.
 
 
 
