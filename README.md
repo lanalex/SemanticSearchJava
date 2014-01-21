@@ -29,7 +29,7 @@ Provide a full path for each parameter, not a relative path.
 
 ### Output
 
-The output is written into the output dir.
+The output is written into the output dir <br>
 1) For each pair of nodes in the PathsToAnalyze file a new subdir will be created.<br>
 2) Each thread creates a file called Labelings_ThreadNumber.txt <br>
 For example if we search for paths linking ANG and MMP2, using four threads <br>
