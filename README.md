@@ -24,7 +24,7 @@ The number of parallel threads to use during the computation.
 
 
 #### Extra notes
-Provide a full path for each parameter, not relative locations.
+Provide a full path for each parameter, not a relative path.
 
 
 
