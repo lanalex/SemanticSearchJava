@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -912,7 +911,8 @@ public class SemanticSearch
 		String outputDir = args[0];
 		String matrix = args[1];
 		String categories = args[2];
-		String paths = args[3];		
+		String paths = args[3];	
+		String numThreads = args[4]
 		
 		System.out.println(outputDir);
 		System.out.println(matrix);
@@ -928,8 +928,10 @@ public class SemanticSearch
 		
 		commands[0] = command;
 		
+		int numThreads = Integer.parseInt(numThreads);
+
 		SemanticSearch search = new SemanticSearch();
-		search.DoSearch(matrix, categories, commands, 1);
+		search.DoSearch(matrix, categories, commands, numThreads);
 	}
 	
 
