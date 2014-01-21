@@ -9,5 +9,12 @@ All the prerequisite java libraries are bundled along with this code.
 java -jar SemanticSearch.jar <OutputDir> <MatrixFilePath> <FileMappingNodeToCategories>
 
 ## The locations where each file can be found
-FileMappingNodeToCategories: https://www.dropbox.com/s/dkye70q96uze400/NodeCategories.txt
-MatrixFilePath: https://www.dropbox.com/s/clvbv27g0a09o3l/0.7-0.0.txt
+###FileMappingNodeToCategories: https://www.dropbox.com/s/dkye70q96uze400/NodeCategories.txt
+###MatrixFilePath: https://www.dropbox.com/s/clvbv27g0a09o3l/0.7-0.0.txt
+
+# Special notes
+Provide full for each parameter, not relative locations.
+
+
+
+
