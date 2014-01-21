@@ -27,6 +27,25 @@ The number of parallel threads to use during the computation.
 Provide a full path for each parameter, not a relative path.
 
 
+### Output
+
+The output is written into the output dir.
+1) For each pair of nodes in the PathsToAnalyze file a new subdir will be created.
+2) Each thread creates a file called Labelings_ThreadNumber.txt
+For example if we search for paths linking ANG and MMP2, using four threads <br>
+the output dir will contain a subdir called ANG-Protein-MMP2-Gene with four files:<br>
+1) Labelings_1.txt
+2) Labelings_2.txt
+3) Labelings_3.txt
+
+###The file format is:<br>
+[Path]:[GO Annotations]:[log score]<br>
+####For example:
+ANG,PTEN,ESR1,KAT5,TP53,MMP2:0001938,0000079,0045429,0016573,0033077,0060325:-0.011860875523755693
+
+
+
+
 
 
 
