@@ -6,9 +6,9 @@ You can compile the code into a jar called SemanticSearch.jar.
 All the prerequisite java libraries are bundled along with this code.
 
 # Quick start
-java -jar SemanticSearch.jar [OutputDir] [MatrixFilePath] [FileMappingNodeToCategories] [PathsToAnalyze]
+java -jar SemanticSearch.jar [OutputDir] [MatrixFilePath] [FileMappingNodeToCategories] [PathsToAnalyze] [NumberOfWorkers]
 
-## The locations where each file can be found
+### The locations where each file can be found
 ####FileMappingNodeToCategories 
 https://www.dropbox.com/s/dkye70q96uze400/NodeCategories.txt
 ####MatrixFilePath 
@@ -18,6 +18,10 @@ TRAF2,IRF4,ISG15 <br>
 TRAF2,TNFRSF1A,STAT1,ISG15 <br>
 TRAF2,HSP90AA1,STAT1,ISG15 <br>
 etc..<br>
+
+#### Number of workers
+The number of parallel threads to use during the computation. 
+
 
 #### Extra notes
 Provide a full path for each parameter, not relative locations.
