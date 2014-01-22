@@ -12,8 +12,12 @@ https://www.dropbox.com/s/sd6ah47etljpb99/SemanticSearch.jar
 
 TODO: Add batch file to compile the code quickly, right now it is done through the IntelliJ IDE.
 
-#### Running
-java -jar SemanticSearch.jar [OutputDir] [MatrixFilePath] [FileMappingNodeToCategories] [PathsToAnalyze] [NumberOfWorkers]
+#### Compiling
+javac -g SemanticSearch.java
+
+### Running
+
+java - SemanticSearch [OutputDir] [MatrixFilePath] [FileMappingNodeToCategories] [PathsToAnalyze] [NumberOfWorkers]
 
 ### The locations where each file can be found
 ####FileMappingNodeToCategories 
