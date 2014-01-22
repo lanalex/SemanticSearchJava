@@ -4,9 +4,9 @@ SemanticSearchJava
 This is a tutorial on how to start working with the semantic search via the console. 
 This is the part that performs the search given the following parametesrs:
 
-1) The context transisiton matrix
-2) The assignment of categories to each node
-3) A list of paths to analyze. 
+1) The context transisiton matrix <br>
+2) The assignment of categories to each node <br>
+3) A list of paths to analyze.  <br>
 
 
 You can compile the code into a jar called SemanticSearch.jar. 
